@@ -1,0 +1,84 @@
+header.Voyage
+{
+background: no-repeat left/cover url(../img/header2.jpg);
+display: flex;
+align-items:center;
+height: 200px;
+width:100%;
+}
+
+h1{
+  margin-left: 40%;
+  margin-bottom: 17%;
+  font-size:25px;
+
+}
+
+nav ul{
+  padding:0px;
+  margin:0px;
+  list-style-type: none;
+}
+nav li{
+  display: inline-block;
+  border-right: 1px solid;
+  width: 100px;
+  height:40px;
+  margin:0px;
+  text-align: center;
+  line-height:40px;
+  padding: 0px;
+  background-color: #83E1EB;
+}
+nav li:hover{
+  background-color:blue;
+}
+nav li a{
+  display: block;
+  text-decoration: none;
+  color:purple;
+}
+imput{
+  background-color:black;
+}
+
+section
+{
+  display:block;
+  text-align: justify;
+  background-color: #A0C0A6;
+  width: 700px;
+  height: :250px;
+  margin:30px 30px 30px 30px;
+  padding:40px 40px 40px 40px;
+}
+
+#conteneur1, #conteneur2
+{
+  width: 80%;
+}
+#container{
+  display: flex;
+  justify-content: space-around;
+}
+.destination{
+  width: 30%;
+  height:200px;
+  background: no-repeat url(../img/destination.jpg);
+}
+.prix{
+  width: 30%;
+  height:200px;
+  background: no-repeat url(../img/prix.jpeg);
+}
+.activité{
+  width: 30%;
+  height: 200px;
+  background: no-repeat url(../img/activité.jpeg);
+}
+
+#container2{
+  display: flex;
+  justify-content: space-around;
+
+}
